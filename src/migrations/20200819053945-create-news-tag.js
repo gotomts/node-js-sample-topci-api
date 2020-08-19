@@ -8,16 +8,11 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      tag_id: {
+      news_id: {
         type: Sequelize.INTEGER
       },
-      created_at: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      updated_at: {
-        allowNull: false,
-        type: Sequelize.DATE
+      tag_id: {
+        type: Sequelize.INTEGER
       }
     });
   },

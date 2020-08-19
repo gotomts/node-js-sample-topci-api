@@ -12,7 +12,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       category: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER
       },
       tag_id: {
         type: Sequelize.INTEGER
