@@ -11,16 +11,15 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      category.hasMany(models.news, { foreignKey: 'category_id' });
     }
   };
   category.init({
-    name: DataTypes.STRING,
-    created_by: DataTypes.INTEGER,
-    updated_by: DataTypes.INTEGER
+    name: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'category',
-    underscored: true,
+    timestamps: false
   });
   return category;
 };

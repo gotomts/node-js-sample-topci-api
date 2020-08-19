@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'news_tag',
-    underscored: true,
+    timestamps: false
   });
   return news_tag;
 };

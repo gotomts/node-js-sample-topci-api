@@ -11,8 +11,14 @@ module.exports = {
       title: {
         type: Sequelize.STRING
       },
-      category: {
+      category_id: {
         type: Sequelize.INTEGER
+      },
+      url: {
+        type: Sequelize.STRING
+      },
+      image: {
+        type: Sequelize.STRING
       },
       tag_id: {
         type: Sequelize.INTEGER
