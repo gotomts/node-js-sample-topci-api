@@ -13,7 +13,7 @@ $(function(){
         for (key in data) {
             $('.news' + [key] + ' .url').attr("href", data[key].url);
             $('.news' + [key] + ' .image').attr("src", "/images/" + data[key].image);
-            $('.news' + [key] + ' .category').text(data[key].category);
+            $('.news' + [key] + ' .category').text(data[key].category.name);
             $('.news' + [key] + ' .title').text(data[key].title);
             $('.news' + [key] + ' .date').text(data[key].createdAt);
         }
