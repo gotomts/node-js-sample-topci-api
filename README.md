@@ -1,4 +1,4 @@
-# node-js-sample-topic-api
+# sample-express-app
 
 ## 環境構築
 
