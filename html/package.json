@@ -1,0 +1,29 @@
+{
+  "name": "node-js-sample-topic-api-sample-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gotomts/node-js-sample-topic-api.git"
+  },
+  "author": "gotomts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gotomts/node-js-sample-topic-api/issues"
+  },
+  "homepage": "https://github.com/gotomts/node-js-sample-topic-api#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-stream": "^5.2.1"
+  }
+}
